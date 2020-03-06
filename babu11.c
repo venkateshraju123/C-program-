@@ -1,5 +1,11 @@
 #include<stdio.h>
 void main()
 {
-int a1,a2,a3,a4,a5,sum,perc;
-printf("enter a1,
+int a,b,c;
+printf("enter three sides");
+scanf("%d,%d,%d",&a,&b,&c);
+if((a+b>c)||(a+c>b)||(b+c>a))
+printf("triangle is valid");
+else
+printf("triangle is not valid");
+}
